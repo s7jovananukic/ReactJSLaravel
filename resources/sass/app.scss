@@ -1,0 +1,73 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "./Home.scss";
+@import "./About.scss";
+@import "./Contact";
+@import "./Items";
+
+//Header style
+.navbar-default {
+  background-color: rgba(185, 187, 190, 0.54);
+  a {
+    color: white;
+  }
+  ul.navbar-nav {
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      padding: 0 15px;
+    }
+  }
+}
+.container-fluid {
+  @extend .container;
+}
+
+//Footer style
+.footer {
+  margin-top: 30px;
+  background-color: #3d4852;
+  min-height: 100px;
+
+  .footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .footer-left,
+    .footer-right {
+      display: inline-flex;
+    }
+  }
+}
+.footer-left {
+  .footer-logo {
+    padding: 31px 0;
+    a {
+      color: whitesmoke;
+    }
+  }
+}
+.footer-right {
+  .footer-nav {
+    padding: 31px 0;
+  }
+}
+.footer-nav {
+  li {
+    padding-right: 15px;
+    a {
+      display: block;
+      padding: 10px 0;
+      color: whitesmoke;
+    }
+  }
+}

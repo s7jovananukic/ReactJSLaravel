@@ -1,0 +1,19 @@
+//Contact page styles
+.Contact {
+  h1 {
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: #98e1b7;
+  }
+  .ContactBlock {
+    background-color: #98e1b7;
+    padding: 20px;
+
+    p {
+      color: white;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
